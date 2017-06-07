@@ -3,8 +3,8 @@
 // I got this one!
 
 
-function sum(num) {
-  for (i = 0; i <= num; i++) {
+function sum(buzzy) {
+  for (i = 0; i <= buzzy; i++) {
    if (i % 3 === 0) {
     console.log("Fizz");
   } else if (i % 5 === 0) {
